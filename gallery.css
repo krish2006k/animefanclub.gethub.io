@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.menu
+{
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    
+}
+.abc{
+    background-image: url(one-piece.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lol{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(228, 201, 167);
+    
+
+}
+.img
+{
+    text-align: center;
+    padding: 50px;
+    transition: 1s ease;
+    }
+    
+    .img:hover{
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 2s ease;
+    }
+
+.header_a{
+    background-image: url("one-piece15.png.jpg");
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 480px;
+
+}
+.footer
+{
+    background-color: rgb(209, 173, 129);    margin-top: 10px;
+}
+.menu2{
+    text-align: center;
+}
+.low
+{
+   margin-top: 20px;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu3
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+.footerheader
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading
+{
+    text-align: center;
+}
+.item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}

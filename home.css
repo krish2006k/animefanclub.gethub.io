@@ -1,0 +1,65 @@
+.navbar{
+    display: flex;
+    background-image: url("One-Piece-Header-001-20150818.webp");
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 480px;
+              justify-content: space-between; 
+
+}
+.menu
+{
+    display: flex;
+}
+li {
+    list-style: none;
+}
+ 
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+.footer
+{
+    background-color: rgb(209, 173, 129);    margin-top: 10px;
+}
+.menu2{
+    text-align: center;
+}
+.low
+{
+   margin-top: 20px;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu3
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+.footerheader
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading
+{
+    text-align: center;
+}
+.item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.hg{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20;
+    justify-content: space-evenly ;    
+}
